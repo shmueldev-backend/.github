@@ -1,110 +1,95 @@
-<div align="center">
-
-  <img src="./assets/banner.svg" alt="SHMUELDEV-BACKEND" width="100%" />
-
-  <br/>
-
-  <img src="./assets/logo.svg" alt="SHMUELDEV" width="56" />
-
-  # SHMUELDEV-BACKEND
-
-  **APIs ∑ Servicios ∑ Datos ∑ ProducciÛn**
-
-  Casa de todos los proyectos backend de [SHMUELDEV](https://github.com/shmueldev):  
-  servicios que se pueden operar, APIs claras y cÛdigo listo para crecer.
-
-  <br/>
-
-  <a href="https://shmueldev.github.io">
-    <img src="https://img.shields.io/badge/GuÌa-SHMUELDEV-0e6aaf?style=for-the-badge&labelColor=050c16" alt="GuÌa SHMUELDEV" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shmueldev">
-    <img src="https://img.shields.io/badge/GitHub-shmueldev-1686d4?style=for-the-badge&labelColor=050c16" alt="GitHub shmueldev" />
-  </a>
-  &nbsp;
-  <a href="https://shmueldev.github.io/portfolio/">
-    <img src="https://img.shields.io/badge/Portafolio-Live-3ec4ff?style=for-the-badge&labelColor=050c16" alt="Portafolio" />
-  </a>
-
+Ôªø<div align="center">
+  <img src="./assets/banner.png" alt="SHMUELDEV-BACKEND" width="100%" />
 </div>
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ORG-SHMUELDEV--BACKEND-3ec4ff?style=for-the-badge&labelColor=050c16" alt="org" />
+  <img src="https://img.shields.io/badge/FOCUS-Backend%20%26%20APIs-1686d4?style=for-the-badge&labelColor=050c16" alt="focus" />
+  <img src="https://img.shields.io/badge/STATUS-Active-0e6aaf?style=for-the-badge&labelColor=050c16" alt="status" />
+</p>
+
+<p align="center">
+  <b>Casa de todos los proyectos backend de SHMUELDEV.</b><br/>
+  APIs claras ¬∑ servicios operables ¬∑ c√≥digo listo para producci√≥n.
+</p>
 
 ---
 
-## QuÈ hay aquÌ
+## Enfoque
 
-Esta organizaciÛn concentra el **backend** de la marca: APIs, servicios, autenticaciÛn, acceso a datos y piezas listas para producciÛn.
-
-| Enfoque | QuÈ encontrar·s |
-| --- | --- |
-| **APIs** | FastAPI, Django REST y contratos claros |
-| **Datos** | SQL, capas de acceso y modelos de dominio |
-| **Servicios** | Auth, reglas de negocio y orquestaciÛn |
-| **ProducciÛn** | Estructura, pruebas y despliegue operable |
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <h3>APIs</h3>
+      FastAPI y Django con contratos claros, versionados y documentados.
+    </td>
+    <td width="25%" valign="top">
+      <h3>Datos</h3>
+      SQL, capas de acceso y modelos de dominio sin atajos fr√°giles.
+    </td>
+    <td width="25%" valign="top">
+      <h3>Servicios</h3>
+      Auth, reglas de negocio y orquestaci√≥n que se pueden operar.
+    </td>
+    <td width="25%" valign="top">
+      <h3>Producci√≥n</h3>
+      Estructura, pruebas y despliegue: si no corre, no est√° listo.
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Stack
 
-```text
-Python ∑ FastAPI ∑ Django ∑ SQL ∑ Auth ∑ APIs ∑ Docker
-```
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/SQL-0e6aaf?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Python-050c16?style=for-the-badge&logo=python&logoColor=3ec4ff" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-050c16?style=for-the-badge&logo=fastapi&logoColor=7ad7ff" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Django-050c16?style=for-the-badge&logo=django&logoColor=1686d4" alt="Django" />
+  <img src="https://img.shields.io/badge/SQL-050c16?style=for-the-badge&logo=postgresql&logoColor=3ec4ff" alt="SQL" />
+  <img src="https://img.shields.io/badge/Docker-050c16?style=for-the-badge&logo=docker&logoColor=1a8fe0" alt="Docker" />
+  <img src="https://img.shields.io/badge/Auth-050c16?style=for-the-badge&logo=auth0&logoColor=7ad7ff" alt="Auth" />
 </p>
 
----
-
-## Proyectos
-
-> Los repositorios de esta organizaciÛn viven aquÌ. Agrega cada uno cuando estÈ listo.
-
-| Proyecto | DescripciÛn | Estado |
-| --- | --- | --- |
-| _PrÛximamente_ | Primer servicio / API de la organizaciÛn | En preparaciÛn |
-
----
-
-## CÛmo se trabaja
-
-1. Un repo = un servicio o un dominio claro.
-2. README corto, contrato de API visible y entorno reproducible.
-3. Mismo criterio visual y de cÛdigo que el resto de SHMUELDEV.
-4. Lo que no se puede operar, no se considera terminado.
-
----
-
-## Paleta SHMUELDEV
-
-| Token | Hex | Uso |
-| --- | --- | --- |
-| Navy | `#050c16` ∑ `#07182e` | Fondo / base |
-| Blue deep | `#0a4d86` ∑ `#0e6aaf` | Marca primaria |
-| Blue | `#1686d4` ∑ `#1a8fe0` | Acento activo |
-| Cyan | `#3ec4ff` ∑ `#7ad7ff` | Detalles / highlights |
-| Ice | `#f7fbff` ∑ `#d5e7f6` | Texto claro |
-
-```css
-background: linear-gradient(105deg, #050c16 0%, #07182e 28%, #0a4d86 62%, #1a8fe0 100%);
+```text
+Python ¬∑ FastAPI ¬∑ Django ¬∑ SQL ¬∑ Auth ¬∑ APIs ¬∑ Docker
 ```
 
 ---
 
-## Enlaces
+## Repositorios
 
-- [GuÌa de aprendizaje](https://shmueldev.github.io)
-- [Perfil GitHub](https://github.com/shmueldev)
-- [Portafolio](https://shmueldev.github.io/portfolio/)
+> Cada repo es un servicio o un dominio claro. La tabla se actualiza al publicar.
+
+| Proyecto | Descripci√≥n | Estado |
+| --- | --- | --- |
+| ‚Äî | Primer servicio / API de la organizaci√≥n | En preparaci√≥n |
+
+---
+
+## Criterio de trabajo
+
+```diff
++ Un repo = un servicio o un dominio claro
++ README corto + contrato de API visible
++ Entorno reproducible desde el d√≠a uno
+- Lo que no se puede operar no se considera terminado
+```
+
+1. Mismo criterio visual y de c√≥digo que el resto de SHMUELDEV.
+2. Prioridad a claridad, trazabilidad y operaci√≥n real.
+3. Producci√≥n no es un ‚Äúdespu√©s‚Äù: es parte del dise√±o.
 
 ---
 
 <div align="center">
 
-  <sub>SHMUELDEV ∑ Backend con criterio ∑ Sistemas que se pueden operar</sub>
+  <img src="./assets/logo.png" alt="SHMUELDEV" width="48" />
+
+  <br/><br/>
+
+  <sub><b>SHMUELDEV</b> ¬∑ Backend con criterio ¬∑ Sistemas que se pueden operar</sub>
 
 </div>
