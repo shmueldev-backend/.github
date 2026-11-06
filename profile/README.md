@@ -4,41 +4,22 @@
 
 <br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ORG-SHMUELDEV--BACKEND-3ec4ff?style=for-the-badge&labelColor=050c16" alt="org" />
-  <img src="https://img.shields.io/badge/FOCUS-Backend%20%26%20APIs-1686d4?style=for-the-badge&labelColor=050c16" alt="focus" />
-  <img src="https://img.shields.io/badge/STATUS-Active-0e6aaf?style=for-the-badge&labelColor=050c16" alt="status" />
-</p>
+## Sobre la organización
 
-<p align="center">
-  <b>Casa de todos los proyectos backend de SHMUELDEV.</b><br/>
-  APIs claras · servicios operables · código listo para producción.
-</p>
+**SHMUELDEV-BACKEND** concentra los proyectos backend de la marca SHMUELDEV: APIs, servicios, acceso a datos y piezas listas para operar en producción.
+
+El objetivo no es acumular demos sueltas. Cada repositorio debe resolver un dominio claro, exponer un contrato entendible y poder levantarse sin adivinar pasos ocultos.
 
 ---
 
-## Enfoque
+## Qué encontrarás aquí
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h3>APIs</h3>
-      FastAPI y Django con contratos claros, versionados y documentados.
-    </td>
-    <td width="25%" valign="top">
-      <h3>Datos</h3>
-      SQL, capas de acceso y modelos de dominio sin atajos frágiles.
-    </td>
-    <td width="25%" valign="top">
-      <h3>Servicios</h3>
-      Auth, reglas de negocio y orquestación que se pueden operar.
-    </td>
-    <td width="25%" valign="top">
-      <h3>Producción</h3>
-      Estructura, pruebas y despliegue: si no corre, no está listo.
-    </td>
-  </tr>
-</table>
+| Área | Contenido |
+| --- | --- |
+| **APIs** | Servicios HTTP con FastAPI o Django, documentados y versionados |
+| **Datos** | SQL, capas de acceso y modelos de dominio |
+| **Servicios** | Auth, reglas de negocio y orquestación entre componentes |
+| **Producción** | Estructura, pruebas, Docker y despliegue operable |
 
 ---
 
@@ -53,43 +34,31 @@
   <img src="https://img.shields.io/badge/Auth-050c16?style=for-the-badge&logo=auth0&logoColor=7ad7ff" alt="Auth" />
 </p>
 
-```text
-Python · FastAPI · Django · SQL · Auth · APIs · Docker
-```
-
 ---
 
-## Repositorios
-
-> Cada repo es un servicio o un dominio claro. La tabla se actualiza al publicar.
+## Proyectos
 
 | Proyecto | Descripción | Estado |
 | --- | --- | --- |
-| — | Primer servicio / API de la organización | En preparación |
+| API base | Primer servicio HTTP de la organización (auth + health + CRUD) | Próximo |
+| Auth service | Autenticación y autorización reutilizable entre servicios | Planeado |
+| Data layer | Plantilla de acceso a SQL y modelos de dominio | Planeado |
+
+> Cuando un repo se publique, esta tabla se actualiza con el enlace real.
 
 ---
 
-## Criterio de trabajo
+## Convenciones
 
-```diff
-+ Un repo = un servicio o un dominio claro
-+ README corto + contrato de API visible
-+ Entorno reproducible desde el día uno
-- Lo que no se puede operar no se considera terminado
-```
-
-1. Mismo criterio visual y de código que el resto de SHMUELDEV.
-2. Prioridad a claridad, trazabilidad y operación real.
-3. Producción no es un “después”: es parte del diseño.
+- Un repositorio = un servicio o un dominio claro.
+- README corto: qué hace, cómo levantarlo y cuál es el contrato de la API.
+- Entorno reproducible (Docker o instrucciones mínimas) desde el primer commit útil.
+- Si no se puede operar, no se considera terminado.
 
 ---
 
 <div align="center">
-
-  <img src="./logo.png" alt="SHMUELDEV" width="48" />
-
+  <img src="./banner-footer.png" alt="SHMUELDEV-BACKEND" width="100%" />
   <br/><br/>
-
   <sub><b>SHMUELDEV</b> · Backend con criterio · Sistemas que se pueden operar</sub>
-
 </div>
